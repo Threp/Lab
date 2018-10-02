@@ -21,7 +21,7 @@ namespace Zadacha
         {
             if (textBox1.Text.Length > 0 && textBox2.Text.Length > 0)
             {
-                textBox3.Text = Convert.ToString(Convert.ToDouble(textBox2.Text) - Convert.ToDouble(textBox1.Text));
+                textBox3.Text = Convert.ToString((Convert.ToDouble(textBox2.Text) - Convert.ToDouble(textBox1.Text))/2);
             }
         }
     }
